@@ -89,7 +89,6 @@ export default class WebGlWrapper {
     }
 
     render(simulation) {
-        console.log(this);
         let scene = new THREE.Scene();
         scene.add(this.frame);
         scene.fog = this.fog;
