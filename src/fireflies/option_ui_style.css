@@ -1,0 +1,24 @@
+
+
+.menu {
+    z-index: 1;
+    position: absolute;
+    color: white;
+    padding: 0.5em;
+    opacity: 0.25;
+}
+
+.menu > .button {
+    cursor: pointer;
+    font-size: 200%;
+    user-select: none;
+}
+
+.menu > label {
+    width: 10em;
+    display: inline-block;
+}
+
+.menu > input {
+    width: 5em;
+}
